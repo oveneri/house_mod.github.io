@@ -4,14 +4,16 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: AlpineGrass
   m_Shader: {fileID: 4800000, guid: 1902925be899f6c4794040c4a1c39b50, type: 3}
   m_ShaderKeywords: GRASS_ALPHA_SMOOTHING GRASS_CALC_GLOBAL_WIND GRASS_PBR_LIGHTING
     GRASS_RANDOM_DIR GRASS_USE_TEXTURE_ATLAS THREE_GRASS_TYPES
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -86,6 +88,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AtlasOffset00: 0.023
     - _AtlasOffset01: 0.01
@@ -101,6 +104,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _Disorder: 0.4
     - _DstBlend: 0
+    - _FloorColorOffset: 0
+    - _FloorColorPower: 2
+    - _FloorColorStrength: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -147,6 +153,10 @@ Material:
     - _TextureAtlasWidth03: 1
     - _TextureCutoff: 0.053
     - _UVSec: 0
+    - _Weight00: 1.5
+    - _Weight01: 1.5
+    - _Weight02: 1.5
+    - _Weight03: 1.5
     - _Width00: 0.4
     - _Width01: 0.28
     - _Width02: 0.3
@@ -171,3 +181,4 @@ Material:
     - _SpecColor02: {r: 0.066176474, g: 0.066176474, b: 0.066176474, a: 1}
     - _SpecColor03: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _WindParams: {r: 0.2, g: 1.2, b: 0.2, a: 1.2}
+  m_BuildTextureStacks: []

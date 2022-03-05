@@ -9,9 +9,9 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Grass
   m_Shader: {fileID: 4800000, guid: 1902925be899f6c4794040c4a1c39b50, type: 3}
-  m_ShaderKeywords: GRASS_ALPHA_SMOOTHING GRASS_CALC_GLOBAL_WIND GRASS_FOLLOW_SURFACE_NORMAL
-    GRASS_HEIGHT_SMOOTHING GRASS_IGNORE_GI_SPECULAR GRASS_RANDOM_DIR GRASS_TOP_VIEW_COMPENSATION
-    GRASS_WIDTH_SMOOTHING TWO_GRASS_TYPES UNIFORM_DENSITY
+  m_ShaderKeywords: GRASS_ALPHA_SMOOTHING GRASS_FOLLOW_SURFACE_NORMAL GRASS_HEIGHT_SMOOTHING
+    GRASS_IGNORE_GI_SPECULAR GRASS_RANDOM_DIR GRASS_TOP_VIEW_COMPENSATION GRASS_WIDTH_SMOOTHING
+    TWO_GRASS_TYPES VERTEX_DENSITY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -116,8 +116,8 @@ Material:
     - _LODEnd: 1000.99
     - _LODMax: 6
     - _LODStart: 10
-    - _MaxHeight00: 0.1
-    - _MaxHeight01: 0.1
+    - _MaxHeight00: 0.06
+    - _MaxHeight01: 0.06
     - _MaxHeight02: 0.77
     - _MaxHeight03: 1.5
     - _Metallic: 0
@@ -158,27 +158,27 @@ Material:
     - _Weight01: 1.5
     - _Weight02: 1.5
     - _Weight03: 1.5
-    - _Width00: 0.02
-    - _Width01: 0.02
+    - _Width00: 0.01
+    - _Width01: 0.01
     - _Width02: 0.05
     - _Width03: 0.1
     - _WindRotation: 0.63
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color00: {r: 0.24824446, g: 0.3584906, b: 0.13358848, a: 1}
-    - _Color01: {r: 0.37129867, g: 0.5188679, b: 0.21782662, a: 1}
+    - _Color00: {r: 0.21536039, g: 0.3962264, b: 0.028034883, a: 1}
+    - _Color01: {r: 0.34462827, g: 0.4433962, b: 0.24052154, a: 1}
     - _Color02: {r: 0.5, g: 0.7, b: 0.3, a: 1}
     - _Color03: {r: 0.5, g: 0.7, b: 0.3, a: 1}
     - _DensityValues: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GrassFloorColor: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 1}
     - _SecColor00: {r: 0.11406938, g: 0.31132078, b: 0.08076719, a: 1}
-    - _SecColor01: {r: 0.14088643, g: 0.33962262, b: 0.107333556, a: 1}
+    - _SecColor01: {r: 0.118454084, g: 0.3584906, b: 0.07609471, a: 1}
     - _SecColor02: {r: 0.2, g: 0.5, b: 0.15, a: 1}
     - _SecColor03: {r: 0.2, g: 0.5, b: 0.15, a: 1}
-    - _SpecColor00: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _SpecColor01: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _SpecColor00: {r: 0.1509434, g: 0.1473834, b: 0.1473834, a: 1}
+    - _SpecColor01: {r: 0.108, g: 0.108, b: 0.108, a: 1}
     - _SpecColor02: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecColor03: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _WindParams: {r: 0.2, g: 0.2, b: 0.15, a: 1.3}
