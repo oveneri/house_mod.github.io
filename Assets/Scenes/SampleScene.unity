@@ -8080,7 +8080,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24718
+  m_Name: pb_Mesh34400
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10775,6 +10775,56 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1681987461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1681987463}
+  - component: {fileID: 1681987462}
+  m_Layer: 0
+  m_Name: PresentationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1681987462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681987461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250ce1f4f8b3a2048a8c259b2879bc0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_cameraArray:
+  - {fileID: 963194227}
+  - {fileID: 1583184709}
+  - {fileID: 1379227692}
+  - {fileID: 1290765556}
+  m_defaultMaterial: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  m_grassMaterial: {fileID: 2100000, guid: 9da1d131a0f247e45a7f08f8ea17172f, type: 2}
+--- !u!4 &1681987463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681987461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.57056, y: -126.74597, z: 32.585056}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1770017050
 Mesh:
   m_ObjectHideFlags: 0
