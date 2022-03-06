@@ -11,12 +11,15 @@ public class PresentationManager : MonoBehaviour
     public GameObject m_terrainRoot = null;
     MeshRenderer[] m_meshRendererArray = null;
     bool m_showGrassMaterial = false;
+    public GameObject m_earthWorkRoot = null;
+    bool m_showEarthWork = false;
 
     // Start is called before the first frame update
     void Start()
     {
         m_meshRendererArray = m_terrainRoot.GetComponentsInChildren<MeshRenderer>(true);
         updateTerrainMaterial();
+        updateEarthWork();
     }
 
     // Update is called once per frame
@@ -56,6 +59,11 @@ public class PresentationManager : MonoBehaviour
         
     }
 
+    void updateEarthWork()
+    {
+        m_earthWorkRoot.SetActive(m_showEarthWork);
+    }
+
     void OnGUI()
     {
         GUILayout.BeginArea(new Rect(10, 10, 200, 1000));
@@ -65,6 +73,12 @@ public class PresentationManager : MonoBehaviour
         {
             m_showGrassMaterial = !m_showGrassMaterial;
             updateTerrainMaterial();
+        }
+
+        if (GUILayout.Button("Toggle earth work"))
+        {
+            m_showEarthWork = !m_showEarthWork;
+            updateEarthWork();
         }
 
         for (int i = 0; i < m_cameraArray.Count; i++)
